@@ -1,5 +1,5 @@
 import React from "react";
-import menuIcon from "./assets/menu.svg";
+// import menuIcon from "./assets/menu.svg";
 
 const Mainheader = () => {
   return (
@@ -8,15 +8,17 @@ const Mainheader = () => {
         <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <svg
             xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
             fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
             viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
           >
-            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
           </svg>
           <span class="ml-3 text-xl">Headsink</span>
         </a>
