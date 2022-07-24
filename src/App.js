@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Mainheader from "./component/mainheader";
 import { useState } from "react";
@@ -16,7 +15,6 @@ function App() {
       <h1>{num}</h1>
       <button onClick={increaseNum}>Increase</button>
 
-      <img src={logo} className="App-logo" alt="logo" />
     </div>
   );
 }
