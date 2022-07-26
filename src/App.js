@@ -16,10 +16,7 @@ function App() {
   return (
     <div className="w-screen h-screen">
       <Mainheader></Mainheader>
-      <form action="">
-        <input type="text" name="" id="" autoFocus />
-        <input type="submit" value="Save" />
-      </form>
+      
       <h1>{num}</h1>
       <button onClick={increaseNum}>Increase</button>
       <ul>
