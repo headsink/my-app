@@ -1,11 +1,11 @@
 import "./App.css";
 import Mainheader from "./component/mainheader";
-import Formz from "./component/Formz"
+// import Formz from "./component/Formz"
 import { useState } from "react";
 
 function App() {
   const [num, setNum] = useState(0);
-  const [showForm, setShowForm] = useState(false);
+  // const [showForm, setShowForm] = useState(false);
 
   const items = [
     {id : 1, name : 'berak'},
@@ -16,10 +16,12 @@ function App() {
     setNum(num + 1);
   };
 
+  // {showForm && <Formz />} // put this inside return
+
   return (
     <div className="w-screen h-screen">
       <Mainheader></Mainheader>
-      {showForm && <Formz />}
+     
       
       <h1>{num}</h1>
       <button onClick={increaseNum}>Increase</button>
